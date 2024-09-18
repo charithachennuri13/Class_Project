@@ -7,4 +7,4 @@ block content
 
   .row
     .col-12.col-lg-8
-      p !{(content).replace(/\n/g, '<br/>')}
+      p!= content.replace(/\n/g, '<br/>')
